@@ -1,0 +1,1 @@
+SELECT DISTINCT `city_name` FROM `city`,`area` where `city`.`id_area`=`area`.`id` or `city`.`id_area` is null
