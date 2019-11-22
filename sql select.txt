@@ -1,1 +1,1 @@
-SELECT DISTINCT `city_name` FROM `city`,`area` where `city`.`id_area`=`area`.`id` or `city`.`id_area` is null
+SELECT DISTINCT `product_name` FROM `product`,`category` where `product`.`id_category`=`category`.`id` or `product`.`id_category` is null
